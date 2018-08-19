@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Places I've Been</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Places I've Been</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Add a Location:</h2>
+        <form id="travel-guide">
+          <div class="form-group">
+            <label for="new-travel-Location">Location</label>
+            <input type="text" class="form-control" id="new-travel-Location">
+          </div>
+          <div class="form-group">
+            <label for="new-landmark">Landmarks</label>
+            <input type="text" class="form-control" id="new-landmark">
+          </div>
+          <div>
+            <label for="new-time-of-year">Time of Year</label>
+            <input type="text" class="form-control" id="new-time-of-year">
+          </div>
+          <div>
+            <label for="new-notes">Notes</label>
+            <input type="text" class="form-control" id="new-notes">
+          </div>
+
+          <button type="submit" class="btn">Add</button>
+        </form>
+
+        <h2>Location:</h2>
+        <ul id="location">
+
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div id="show-location">
+          <h2></h2>
+
+          <p>First name: <span class="first-name"></span></p>
+          <p>Last name: <span class="last-name"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
